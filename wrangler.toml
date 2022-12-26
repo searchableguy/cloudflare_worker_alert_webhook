@@ -1,0 +1,6 @@
+name = "cloudflare-worker-alert-webhook"
+main = "src/index.ts"
+compatibility_date = "2022-12-26"
+
+[triggers]
+crons = [ "*/5 * * * *" ]
